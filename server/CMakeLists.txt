@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.5)
 # Project
 project(onnxruntime C CXX)
 
-option(onnxruntime_USE_CUDA "Build with CUDA support" OFF)
+option(onnxruntime_USE_CUDA "Build with CUDA support" ON)
 option(onnxruntime_USE_OPENVINO "Build with OpenVINO support" OFF)
 option(onnxruntime_USE_NNAPI_BUILTIN "Build with builtin NNAPI lib for Android NNAPI support" OFF)
 option(onnxruntime_USE_DNNL "Build with DNNL support" OFF)
